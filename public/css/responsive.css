@@ -1,0 +1,29 @@
+@media screen and (min-width: 650px) {
+   
+    .products {
+      grid-template-columns: 1fr 1fr;
+    }
+   
+    .product {
+      grid-template-columns: auto 1fr;
+    }
+  }
+   
+   
+  @media screen and (min-width: 850px) {
+    .products {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+   
+  @media screen and (min-width: 1200px) {
+    .products {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+   
+  @media screen and (min-width: 1600px) {
+    .products {
+        grid-template-columns: repeat(5, 1fr);
+    }
+  }

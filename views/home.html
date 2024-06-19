@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AquaTrade</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary py-2">
+      <div class="container w-100">
+        <a class="navbar-brand" href="/home"
+          ><img src="/logo/logo.png" alt="logo" width="120" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/home">Home</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="/shop">Shop</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="/about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <form class="container">
+                <a
+                  class="btn btn-md fs-6"
+                  href="/logout"
+                  role="button"
+                  >logout</a
+                >
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Awal Jumbotron -->
+    <section class="jumbotron">
+      <div class="container">
+        <h1 class="jumbotron-title text-center">
+          Menghubungkan Hasil <br />
+          Budidaya dengan Pasar Luas
+        </h1>
+        <p class="body-text text-center">
+          Kami membantu pembudidaya ikan pantai mengatasi tantangan pemasaran
+          dengan solusi inovatif untuk memperluas pasar
+        </p>
+        <a class="btn btn-primary btn-sm" href="/shop" role="button"
+          >Belanja Sekarang</a
+        >
+      </div>
+    </section>
+    <!-- Akhir Jumbotron -->
+    <!-- Tentang Kami -->
+    <section class="container w-100 tentang-kami">
+        <div class="row">
+          <div class="col-12 col-lg-6 w-50 d-sm-none d-lg-block">
+            <div class="container image-tentang-kami">
+              <img
+                class="img-1"
+                src="/Images/lp-tentang-kami-1.png"
+                alt=""
+              />
+              <img
+                class="img-2"
+                src="/Images/lp-tentang-kami-2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <p class="fw-semibold fs-5" style="color: #0084f3">Tentang Kami ~</p>
+            <h2 class="fw-bold fs-3" style="color: #03045e">
+              Kami Membuat Anda Sehat Dengan Ikan Segar
+            </h2>
+            <p class="fs-6">Kenapa Memilih Kami?</p>
+            <p class="fs-6">
+              Di AquaTrade, kami percaya bahwa kesehatan yang baik dimulai dari
+              makanan yang berkualitas. Kami menyediakan berbagai jenis ikan
+              segar, baik ikan air tawar dan ikan air payau, yang tidak hanya
+              lezat tetapi juga penuh dengan nutrisi penting untuk tubuh Anda.
+            </p>
+            <div class="jenis-ikan w-50 ms-5 my-4">
+              <p class="fs-5">Ikan Air Tawar</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 50%"></div>
+              </div>
+              <p class="mt-3 fs-6">Ikan Air Payau</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+            </div>
+            <p class="mt-3 fs-6">
+              Kami bekerja sama dengan nelayan lokal dan peternak yang menggunakan
+              metode berkelanjutan untuk memastikan bahwa ikan dan udang yang Anda
+              terima selalu segar dan berkualitas tinggi.
+            </p>
+            <a
+              class="btn mt-3 btn-primary btn-sm"
+              href="/about-us"
+              role="button"
+              >Belanja Sekarang</a
+            >
+          </div>
+        </div>
+      </section>
+    <!-- Akhir Tentang Kami -->
+    <!-- Kenapa Memilih Kami -->
+    <section class="container mt-5 kenapa-memilih-kami">
+        <div class="row title mx-auto">
+          <div class="col-12">
+            <p class="text-center fs-5 fw-semibold mb-1 text-primary">
+              Kenapa Memilih Kami
+            </p>
+            <h2 class="text-center fs-3 fw-bold mb-2">
+              Platform Terbesar di Indonesia
+            </h2>
+          </div>
+        </div>
+        <div class="row mt-3 mt-lg-3 detail-alasan">
+          <div class="col-12 col-lg-4 mx-lg-auto">
+            <img
+              src="/Images/produk-terbaik.png"
+              alt="gambar-kualitas-terbaik"
+              width="10"
+            />
+            <h3 class="my-3 fw-semibold fs-5">
+              <a href="/produk-terbaik-page">Produk Terbaik</a>
+            </h3>
+            <p class="fw-normal fs-6">
+              Di AquaTrade, komitmen kami untuk menyediakan produk ikan terbaik
+              adalah pilar utama dari layanan kami.
+            </p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="/Images/kualitas-terbaik.png"
+              alt="gambar-kualitas-terbaik"
+            />
+            <h3 class="my-3 fw-semibold fs-5">
+              <a href="/kualitas-terbaik-page">Kualitas Terbaik</a>
+            </h3>
+            <p class="fw-normal fs-6">
+              Kami memahami bahwa kualitas produk ikan sangat penting bagi
+              kesehatan dan kepuasan pelanggan kami.
+            </p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="/Images/pengolahan-terbaik.png"
+              alt="gambar-pengolahan-terbaik"
+            />
+            <h3 class="my-3 fw-semibold fs-5">
+              <a href="/pengolahan-terbaik-page">Pengolahan Terbaik</a>
+            </h3>
+            <p class="fw-normal fs-6">
+              Di AquaTrade, kami memahami bahwa proses pengolahan ikan adalah
+              kunci untuk menjaga nilai gizi dan rasa asli dari produk kami.
+            </p>
+          </div>
+        </div>
+      </section>
+    <!-- Akhir Kenapa Memilih Kami -->
+    <!-- Proses pengolahan -->
+    <section class="container produsen">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/Images/proses-produsen.png"
+            alt="gambar-produsen"
+            width="500"
+          />
+        </div>
+        <div class="col my-auto w-75">
+          <p class="fs-5 fw-semibold text-primary">Produsen~</p>
+          <h3 class="fw-bold fs-3 mb-3">Proses Pengolahan</h3>
+          <p class="fs-6 fw-normal">
+            Lorem ipsum dolor sit amet consectetur. Sit iaculis viverra urna
+            tellus magna in. <br />
+            Odio mauris dictumst metus quis. Velit amet ipsum amet mattis
+            sollicitudin. Facilisis orci libero ultricies duis purus nunc in
+            tristique.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Proses Pengolahan -->
+    <!-- Proses Budidaya -->
+    <section class="container produsen">
+      <div class="row">
+        <div class="col my-auto w-50">
+          <p class="fs-5 fw-semibold text-primary">Nelayan~</p>
+          <h3 class="fw-bold fs-3 mb-3">Proses Budidaya</h3>
+          <p class="fs-6 fw-normal">
+            Lorem ipsum dolor sit amet consectetur. Sit iaculis viverra urna
+            tellus magna in. <br />
+            Odio mauris dictumst metus quis. Velit amet ipsum amet mattis
+            sollicitudin. Facilisis orci libero ultricies duis purus nunc in
+            tristique.
+          </p>
+        </div>
+        <div class="col">
+          <img
+            src="/Images/proses-produsen.png"
+            alt="gambar-produsen"
+            width="500"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Proses Budidaya -->
+    <!-- Footer -->
+    <footer class="container footer my-5 border-top pt-5">
+        <div class="row">
+          <div class="col-lg-2 col-sm-12">
+            <a href=""
+              ><img src="/logo/alt-logo.png" alt="Alternate-logo"
+            /></a>
+          </div>
+          <div class="col-3 mt-sm-4 mt-lg-0">
+            <h4 class="fw-bold fs-5">Contact Us</h4>
+            <p class="w-75 fs-6 fw-medium mt-4">
+              <a href=""
+                >Jl. Ring Road Utara Condongcatur Kabupaten Sleman Yogyakarta
+                55281</a
+              >
+            </p>
+            <p class="w-50 fs-6 fw-medium"><a href="">+6212 1133 44 55</a></p>
+            <p class="w-50 fs-6 fw-medium"><a href="">aquatrade@gmail.com</a></p>
+          </div>
+          <div class="col-lg-4 mt-sm-4 mt-lg-0">
+            <h4 class="fs-5 fw-bold">Feature Links</h4>
+            <p class="w-50 fs-6 fw-medium mt-4"><a href="">Help</a></p>
+            <p class="w-50 fs-6 fw-medium"><a href="">Privacy Policy</a></p>
+            <p class="w-50 fs-6 fw-medium"><a href="">Contact</a></p>
+            <p class="w-50 fs-6 fw-medium"><a href="">About Us</a></p>
+            <p class="w-50 fs-6 fw-medium"><a href="">Blog</a></p>
+          </div>
+        </div>
+      </footer>
+    <!-- Akhir Footer -->
+    <script src="../script/bootstrap.js"></script>
+  </body>
+</html>

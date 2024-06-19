@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: lato;
+}
+.navbar {
+  background-color: rgb(255, 255, 255) !important;
+}
+.navbar .nav-item a {
+  font-size: 1rem !important;
+  color: black;
+}
+.navbar .nav-item a:hover {
+  color: #0084f3 !important;
+}
+.navbar .nav-item .btn {
+  color: rgb(0, 0, 0) !important;
+  background-color: none !important;
+  border: 2.5px solid #0084f3 !important;
+}
+.navbar .nav-item .btn:hover {
+  color: white !important;
+  background-color: #0084f3;
+  background-color: none !important;
+}
+
+.footer {
+  margin-top: 12rem !important;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  color: #0d6efd;
+}
